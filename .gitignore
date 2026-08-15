@@ -1,0 +1,16 @@
+# локальные материалы — не в репозиторий
+.reference/
+
+# сборки
+/bin/
+/dist/
+/sunfire
+/sunfired
+*-amd64
+*-arm64
+*.deb
+
+# локальные конфиги
+main.conf
+gateway.json
+*.local.json
