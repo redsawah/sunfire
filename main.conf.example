@@ -1,0 +1,10 @@
+{
+  "listen": {
+    "tcp": ":9000",
+    "udp": ":9000"
+  },
+  "transport_key": "СЮДА ТРАНСПОРТНЫЙ КЛЮЧ ИЗ sunfired -menu",
+  "users": [
+    { "name": "node-a", "token": "СЮДА ТОКЕН ОТ sunfired -token" }
+  ]
+}
