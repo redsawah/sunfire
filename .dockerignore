@@ -1,0 +1,7 @@
+.git
+.reference
+*.deb
+dist/
+bin/
+logo.png
+README.md
