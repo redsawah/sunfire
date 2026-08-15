@@ -1,0 +1,10 @@
+services:
+  sunfired:
+    build: .
+    image: sunfire/sunfired
+    # Хостовая сеть: allow_ips сверяется с реальным адресом клиента,
+    # плюс слушаем TCP и UDP на одном порту.
+    network_mode: host
+    volumes:
+      - ./main.conf:/etc/sunfire/main.conf:ro
+    restart: unless-stopped
